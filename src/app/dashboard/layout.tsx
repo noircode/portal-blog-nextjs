@@ -3,7 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { BookOpen, Layers3, User } from "lucide-react";
-import ButtonLogout from "./[home]/components/ButtonLogout";
+import ButtonLogout from "./(home)/components/ButtonLogout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
